@@ -12,6 +12,7 @@ import net.runelite.client.plugins.externals.oneclick.Comparables.Spell;
 public enum Spells
 {
 	HIGH_ALCH("High Alch", WidgetInfo.SPELL_HIGH_LEVEL_ALCHEMY, new Spell("High Level Alchemy")),
+	PLANK_MAKE("Plank Make", WidgetInfo.SPELL_PLANK_MAKE, new Spell("Plank Make")),
 	SUPERHEAT("Superheat", WidgetInfo.SPELL_SUPERHEAT_ITEM, new Spell("Superheat Item")),
 	ENCHANT_SAPPHIRE("Sapphire", WidgetInfo.SPELL_LVL_1_ENCHANT, new Spell("Lvl-1 Enchant")),
 	ENCHANT_EMERALD("Emerald", WidgetInfo.SPELL_LVL_2_ENCHANT, new Spell("Lvl-2 Enchant")),
