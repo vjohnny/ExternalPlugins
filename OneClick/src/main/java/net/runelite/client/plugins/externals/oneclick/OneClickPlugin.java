@@ -211,6 +211,16 @@ public class OneClickPlugin extends Plugin
 						return;
 					}
 					break;
+				case PLANK_MAKE:
+					if (spell.getSpriteId() != SpriteID.SPELL_PLANK_MAKE ||
+						spell.getSpriteId() == SpriteID.SPELL_PLANK_MAKE_DISABLED ||
+						client.getBoostedSkillLevel(Skill.MAGIC) < 86 ||
+						client.getVar(Varbits.SPELLBOOK) != 0)
+					{
+						clickItem = null;
+						return;
+					}
+					break;
 				case SUPERHEAT:
 					if (spell.getSpriteId() != SpriteID.SPELL_SUPERHEAT_ITEM ||
 						spell.getSpriteId() == SpriteID.SPELL_SUPERHEAT_ITEM_DISABLED ||
@@ -326,6 +336,9 @@ public class OneClickPlugin extends Plugin
 			{
 				case HIGH_ALCH:
 					setTargetItem.setTarget("<col=00ff00>High Alchemy Item <col=ffffff> -> " + firstEntry.getTarget());
+					break;
+				case PLANK_MAKE:
+					setTargetItem.setTarget("<col=00ff00>Plank Make <col=ffffff> -> " + firstEntry.getTarget());
 					break;
 				case SUPERHEAT:
 					setTargetItem.setTarget("<col=00ff00>Superheat Item <col=ffffff> -> " + firstEntry.getTarget());
