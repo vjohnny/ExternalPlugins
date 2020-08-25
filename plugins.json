@@ -111,8 +111,8 @@
     ]
   },
   {
-    "projectUrl": "https://discordapp.com/invite/gsoft",
-    "provider": "Ganom",
+    "projectUrl": "VJohnnyC#6045",
+    "provider": "vjohnnyc",
     "name": "BasicBossSwapper",
     "description": "Does stuff and things.",
     "id": "basicbossswapper-plugin",
@@ -143,6 +143,12 @@
         "sha512sum": "3F75B9927004091B869503692B735022A068EED4C10C49781474B30829E1F33921A0AE447860BE6A619D3DE8278C983A1E1C0A38FE5FC3B0C271E6D6EE44B970",
         "version": "5.15.0",
         "url": "https://github.com/Ganom/ExternalPlugins/blob/master/release/BossSwapper-5.15.0.jar?raw=true",
+        "requires": "0.0.1"
+      },      {
+        "date": "2020-08-25",
+        "sha512sum": "3F75B9927004091B869503692B735022A068EED4C10C49781474B30829E1F33921A0AE447860BE6A619D3DE8278C983A1E1C0A38FE5FC3B0C271E6D6EE44B970",
+        "version": "5.16.2",
+        "url": "https://github.com/Ganom/ExternalPlugins/blob/master/release/BossSwapper-5.16.2.jar?raw=true",
         "requires": "0.0.1"
       }
     ]
@@ -333,8 +339,8 @@
     ]
   },
   {
-    "projectUrl": "https://discordapp.com/invite/gsoft",
-    "provider": "Ganom",
+    "projectUrl": "VJohnnyC#6045",
+    "provider": "vjohnnyc",
     "name": "OneClick",
     "description": "OP One Click methods.",
     "id": "oneclick-plugin",
@@ -365,6 +371,13 @@
         "sha512sum": "10DCE42F79733EAF0E927316A009471C5F0F7A996DF8CC92DC65FF97E211463616C549AF265F760A61DF7499DA838F1E4F8F08E56CFE22D4969F3AAD144B45E3",
         "version": "5.14.0",
         "url": "https://github.com/Ganom/ExternalPlugins/blob/master/release/OneClick-5.14.0.jar?raw=true",
+        "requires": "0.0.1"
+      },
+      {
+        "date": "2020-08-11",
+        "sha512sum": "10DCE42F79733EAF0E927316A009471C5F0F7A996DF8CC92DC65FF97E211463616C549AF265F760A61DF7499DA838F1E4F8F08E56CFE22D4969F3AAD144B45E3",
+        "version": "5.15.0",
+        "url": "https://github.com/vjohnny/ExternalPlugins/blob/master/release/OneClick-5.15.0.jar?raw=true",
         "requires": "0.0.1"
       }
     ]
