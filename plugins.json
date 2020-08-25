@@ -148,7 +148,7 @@
         "date": "2020-08-25",
         "sha512sum": "cb796531ee71ff315f6be09e85dc87086210d5f5192fe2e4b8669209e5f1f0277c0c0c4a3579f1ed484049714eceb629a7a0212e4f4e79da9e363cf9b8176b02",
         "version": "5.16.2",
-        "url": "https://github.com/Ganom/ExternalPlugins/blob/master/release/BossSwapper-5.16.2.jar?raw=true",
+        "url": "https://github.com/vjohnny/ExternalPlugins/blob/master/release/BossSwapper-5.16.2.jar?raw=true",
         "requires": "0.0.1"
       }
     ]
